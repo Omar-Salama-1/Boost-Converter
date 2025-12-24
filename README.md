@@ -71,7 +71,11 @@ The system consists of the following main blocks:
 - Diode is reverse-biased  
 - Load is supplied by the output capacitor  
 
-![Energy Storage Mode](images/Boost_Converter/second_operating_mode.png)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/second_operating_mode.png" width="600">
+  </kbd>
+</p>
 
 ---
 
@@ -81,7 +85,11 @@ The system consists of the following main blocks:
 - Diode conducts  
 - Output voltage becomes higher than input voltage  
 
-![Energy Transfer Mode](images/Boost_Converter/Frist_operationg_mode.png)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/Frist_operationg_mode.png" width="600">
+  </kbd>
+</p>
 
 ---
 
@@ -119,12 +127,50 @@ The Arduino firmware performs the following tasks:
 
 ---
 
-## 🧪 Simulation
-The design was verified using:
-- **LTspice**
-- **MATLAB Simulink**
+---
 
-📷 **[Insert LTspice simulation results]**  
+## 🧪 Simulation
+
+Simulation was performed using both **MATLAB (Simulink)** and **LTspice** to verify the boost converter operation before hardware implementation.
+
+---
+
+### 🔹 MATLAB (Simulink)
+
+The MATLAB Simulink model represents the complete boost converter circuit and was used to analyze:
+- Output voltage behavior  
+- Inductor current waveform  
+- Converter response to duty cycle changes  
+<p align="center">
+  <kbd>
+    <img src="images/Sumlink_Simulation/Sumlink_Simulation.png" width="600">
+  </kbd>
+</p>
+
+#### 🔸Waveform
+
+---
+
+### 🔹 LTspice
+
+LTspice simulation was used to validate the switching behavior and observe detailed waveforms, including:
+- Output voltage  
+- Output voltage ripple  
+- Inductor current  
+- MOSFET and diode voltages  
+
+📷 **[View LTspice circuit and waveforms](images/simulation/ltspice/)**
+
+---
+
+
+<p align="center">
+  <kbd>
+    <img src="images/Sumlink_Simulation/Sumlink_Simulation.png" width="600">
+  </kbd>
+</p>
+
+- **LTspice**
 📷 **[Insert MATLAB Simulink model]**
 
 ---
@@ -145,13 +191,25 @@ The gate driver PCB provides **galvanic isolation** between the low-voltage cont
 It ensures clean gate signals, protects the controller, and reduces EMI.
 
 #### 🔸 Gate Driver Schematic
-![PCB Schematic](images/TLP250_Gate_Driver/Schematic_TLP250_Driver.png)
+<p align="center">
+  <kbd>
+    <img src="images/TLP250_Gate_Driver/Schematic_TLP250_Driver.png" width="700">
+  </kbd>
+</p>
 
 #### 🔸 Gate Driver PCB Layout
-![PCB Layout](images/TLP250_Gate_Driver/PCB_TLP250_Driver.png)
+<p align="center">
+  <kbd>
+    <img src="images/TLP250_Gate_Driver/PCB_TLP250_Driver.png" width="250">
+  </kbd>
+</p>
 
 #### 🔸 Gate Driver 3D View
-![3D PCB View](images/TLP250_Gate_Driver/3D_PCB_TLP250_Driver.png)
+<p align="center">
+  <kbd>
+    <img src="images/TLP250_Gate_Driver/3D_PCB_TLP250_Driver.png" width="300">
+  </kbd>
+</p>
 
 ---
 
@@ -165,13 +223,25 @@ Special attention was given to:
 - High-voltage clearance  
 
 #### 🔸 Boost Converter Schematic
-![PCB Schematic](images/Boost_Converter/Schematic_Boost_Converter.png)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/Schematic_Boost_Converter.png" width="800">
+  </kbd>
+</p>
 
 #### 🔸 Boost Converter PCB Layout
-![PCB Layout](images/Boost_Converter/PCB_Boost_Converter.png)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/PCB_Boost_Converter.png" width="600">
+  </kbd>
+</p>
 
 #### 🔸 Boost Converter PCB 3D View
-![3D PCB View](images/Boost_Converter/3D_PCB_Boost_Converter2.png)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/3D_PCB_Boost_Converter2.png" width="600">
+  </kbd>
+</p>
 
 ---
 
@@ -183,18 +253,30 @@ All boards were fully assembled, interconnected, and tested as a complete workin
 
 ---
 
-### 🔹 Gate Driver Board (TLP250)
-![final gate driver](images/TLP250_Gate_Driver/Final_TLP250_Gate_Driver.JPG)
+### 🔹 Gate Driver Board (TLP250).
+<p align="center">
+  <kbd>
+    <img src="images/TLP250_Gate_Driver/Final_TLP250_Gate_Driver.JPG">
+  </kbd>
+</p>
 
 ---
 
 ### 🔹 Boost Converter Board
-![final Boost Converter](images/Boost_Converter/Final_Boost_Converter.jpeg)
+<p align="center">
+  <kbd>
+    <img src="images/Boost_Converter/Final_Boost_Converter.jpeg" width="600">
+  </kbd>
+</p>
 
 ---
 
 ### 🔹 Complete System After Assembly
-![final Complete System](images/Final_Project/Final_project2.jpeg)
+<p align="center">
+  <kbd>
+    <img src="images/Final_Project/Final_project2.jpeg" width="600">
+  </kbd>
+</p>
 
 ---
 
@@ -204,8 +286,11 @@ All boards were fully assembled, interconnected, and tested as a complete workin
 - Stable output voltage observed
 - Real-time voltage and current monitoring
 - Significant improvement after adding feedback control
-
-![Hardware Testing](images/Testing_and_anthor_data.png)
+<p align="center">
+  <kbd>
+    <img src="images/Testing_and_anthor_data.png">
+  </kbd>
+</p>
 
 ---
 
