@@ -1,21 +1,41 @@
 MIT License
 
-Copyright (c) 2025 Yousif Ahmed Abd El-Fattah
+Copyright (c) 2025 AstraVolta Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this project and associated files, including but not limited to software,
+source code, firmware, documentation, circuit schematics, simulations,
+hardware designs, PCB layouts, BOMs, and any other related materials
+, to deal in the Project without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, manufacture, and/or sell copies of the Project,
+and to permit persons to whom the Project is furnished to do so,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Project.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+2. This Project is provided for educational, experimental, and engineering
+   reference purposes. Any implementation, modification, or deployment
+   of this Project is done entirely at the user's own risk.
+
+3. The author makes no guarantees regarding electrical safety, efficiency,
+   thermal performance, electromagnetic compatibility (EMC), component
+   ratings, or compliance with any local, national, or international
+   standards or regulations.
+
+4. The user is solely responsible for:
+   - Verifying component ratings and tolerances
+   - Ensuring proper isolation, protection, and grounding
+   - Compliance with safety standards (including but not limited to
+     IEC, UL, CE, or local electrical codes)
+   - Testing the design before real-world or commercial use
+
+THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, SAFETY, AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES,
+INJURY, LOSS OF DATA, EQUIPMENT FAILURE, FIRE, OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE PROJECT OR THE USE OR OTHER DEALINGS IN THE PROJECT.
+
