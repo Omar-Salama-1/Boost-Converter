@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/main.png" alt="Boost Converter Project - AstraVolt" width="700">
+  <img src="images/Final Project.jpeg" alt="Boost Converter Project - AstraVolt" width="700">
 </p>
 
 
