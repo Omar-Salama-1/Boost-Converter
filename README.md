@@ -132,7 +132,7 @@ The Arduino firmware performs the following tasks:
     </kbd>
   </a>
 </p>
-
+📌 *Click the image above to open the arduino code.*
 ---
 
 ## 🧪 Simulation
@@ -175,7 +175,7 @@ LTspice simulation was used to validate the switching behavior and observe detai
     </kbd>
   </a>
 </p>
-
+📌 *Click the image above to open the LTspice Simulation.*
 ---
 
 ## 🧱 PCB Design
@@ -342,9 +342,9 @@ For more technical details, calculations, waveforms, and full documentation,
 please refer to the complete project report.
 
 <p align="center">
-  <a href="docs/AstraVolt_Boost_Converter_Report.pdf">
+  <a href="AstraVolta Report/AstraVolt Report.pdf">
     <kbd>
-      <img src="images/report/cover.png" width="500">
+      <img src="images/AstraVolt_Logo.jpeg" width="300">
     </kbd>
   </a>
 </p>
@@ -355,7 +355,7 @@ please refer to the complete project report.
 
 ## 📜 License
 This project is released under the  
-**MIT License (Engineering Extension)**.  
+**MIT License**.  
 Use at your own risk.
 
 ---
