@@ -58,6 +58,7 @@ The system consists of the following main blocks:
 | Arduino Nano | PWM generation & control |
 | TLP250 | Isolated MOSFET gate driver |
 | INA219 | Current measurement |
+| Voltage Divider | Voltage measurement |
 | LCD 16×2 | Voltage & current display |
 | Potentiometer | Duty cycle adjustment |
 
@@ -126,7 +127,7 @@ The Arduino firmware performs the following tasks:
 <p align="center">
   <a href="Arduino code/BoostConverter.ino">
     <kbd>
-      <img src="https://ai.thestempedia.com/wp-content/uploads/2017/06/Arduino-Logo.png" width="100">
+      <img src="https://ai.thestempedia.com/wp-content/uploads/2017/06/Arduino-Logo.png" width="200">
     </kbd>
   </a>
 </p>
