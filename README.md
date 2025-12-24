@@ -71,8 +71,7 @@ The system consists of the following main blocks:
 - Diode is reverse-biased  
 - Load is supplied by the output capacitor  
 
-images/Boost Converter/Frist operationg mode.png
-![Frist operationg mode](images/Boost Converter/Frist operationg mode.png)
+![Energy Storage Mode](images/Boost Converter/Frist operationg mode.png)
 
 ---
 
