@@ -32,7 +32,7 @@ The system consists of the following main blocks:
 - Measurement Circuit (INA219 + Voltage Divider)
 - User Interface (LCD + Potentiometer)
 
-![System Block Diagram](images/Schematic)
+![System Block Diagram](images/Schematic.png)
 
 ---
 
