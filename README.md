@@ -36,10 +36,11 @@ The system consists of the following main blocks:
 - Control Unit (Arduino Nano)
 - Measurement Circuit (INA219 + Voltage Divider)
 - User Interface (LCD + Potentiometer)
-
-![System Block Diagram](images/Schematic.png)
-
----
+<p align="center">
+  <kbd>
+    <img src="images/System_Architecture.PNG" width="700">
+  </kbd>
+</p>
 
 ## 🧩 Main Components
 
@@ -288,6 +289,22 @@ All boards were fully assembled, interconnected, and tested as a complete workin
 - Stable output voltage observed
 - Real-time voltage and current monitoring
 - Significant improvement after adding feedback control
+## 📊 Experimental Test Results
+
+The following table summarizes the experimental results using Vin=12.5 & R load = 10KΩ of the boost converter
+under different duty cycle values.
+
+| 🔁 Duty Cycle (%) | ⚡ Output Voltage (V) | 🔋 Output Current (mA) |
+|------------------|----------------------|------------------------|
+| 70%              | 42.5 V               | 357 mA                 |
+| 60%              | 31.6 V               | 261 mA                 |
+| 50%              | 24.7 V               | 353 mA                 |
+| 30%              | 17.8 V               | 336 mA                 |
+| 20%              | 15.3 V               | 328 mA                 |
+
+The results confirm the expected relationship between **duty cycle and output voltage**,
+with stable operation and consistent current behavior.
+
 <p align="center">
   <kbd>
     <img src="images/Testing_and_anthor_data.png">
@@ -320,6 +337,19 @@ It provides a strong foundation for advanced power electronics designs such as:
 - Synchronous boost converters  
 - Isolated DC–DC converters  
 - Advanced SMPS applications  
+
+For more technical details, calculations, waveforms, and full documentation,  
+please refer to the complete project report.
+
+<p align="center">
+  <a href="docs/AstraVolt_Boost_Converter_Report.pdf">
+    <kbd>
+      <img src="images/report/cover.png" width="500">
+    </kbd>
+  </a>
+</p>
+
+📌 *Click the image above to open the full project report.*
 
 ---
 
