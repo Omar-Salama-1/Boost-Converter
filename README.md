@@ -123,9 +123,13 @@ The Arduino firmware performs the following tasks:
 - Applies feedback control for voltage regulation  
 - Displays data on LCD and Serial Monitor  
 
-📷 **[Insert firmware flowchart here]**
-
----
+<p align="center">
+  <a href="images/LTspice_Simulation">
+    <kbd>
+      <img src="https://sc.filehippo.net/images/t_app-icon-l/p/d55e21eb-857a-4b0e-8403-584ec5ce0543/3008849045/ltspice-logo" width="100">
+    </kbd>
+  </a>
+</p>
 
 ---
 
@@ -148,7 +152,11 @@ The MATLAB Simulink model represents the complete boost converter circuit and wa
 </p>
 
 #### 🔸Waveform
-
+<p align="center">
+  <kbd>
+    <img src="images/Sumlink_Simulation/Sumlink_waveform.PNG" width="600">
+  </kbd>
+</p>
 ---
 
 ### 🔹 LTspice
@@ -157,21 +165,14 @@ LTspice simulation was used to validate the switching behavior and observe detai
 - Output voltage  
 - Output voltage ripple  
 - Inductor current  
-- MOSFET and diode voltages  
-
-📷 **[View LTspice circuit and waveforms](images/simulation/ltspice/)**
-
----
-
-
+- MOSFET and diode voltages
 <p align="center">
-  <kbd>
-    <img src="images/Sumlink_Simulation/Sumlink_Simulation.png" width="600">
-  </kbd>
+  <a href="images/LTspice_Simulation">
+    <kbd>
+      <img src="https://sc.filehippo.net/images/t_app-icon-l/p/d55e21eb-857a-4b0e-8403-584ec5ce0543/3008849045/ltspice-logo" width="100">
+    </kbd>
+  </a>
 </p>
-
-- **LTspice**
-📷 **[Insert MATLAB Simulink model]**
 
 ---
 
